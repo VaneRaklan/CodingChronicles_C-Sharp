@@ -11,7 +11,28 @@ class CSharpVol1
     {
         Console.WriteLine("Greetings");
     }
+    /* //User Input
+	The simplist way of taking input from the user is:
+	Console.ReadLine(); //Individual String
+	or 
+	console.Read(); //Individual Character
+
+    */
+
     /* //Enhanced for loop
+	We have seen 'for' loops written as:
+		for(int i = 0; i > 10; i++){
+			(code)
+		}
+
+	When we want to use an array "in place" of the 'i' variable, we can use an Enhanced for loop (or 'for-each' loop)
+	Enhanced for loops are written as such:
+		
+		int[] array = new int[] {0,1,2,3};
+
+		foreach (int i in array){
+			(code)
+		}
 
     */
 

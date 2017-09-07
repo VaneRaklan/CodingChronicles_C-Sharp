@@ -11,6 +11,11 @@ class CSharpVol1
     {
         Console.WriteLine("Greetings");
     }
+	/* //Methods
+	
+	
+	*/
+	
     /* //User Input
 	The simplist way of taking input from the user is:
 	Console.ReadLine(); //Individual String
@@ -131,6 +136,10 @@ class CSharpVol1
 	() can be used to specify what arguments are being compared and in what order
     */
 
+	/* //Combining variables in a print statement
+		Say we create a couble variables"
+	*/
+	
     /* //Declaring/Initializing Variables
     (Data type) (variable name) = (value);
 

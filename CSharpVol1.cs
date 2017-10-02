@@ -5,17 +5,29 @@ it would be the equivilant to 'package'
 
 'namespace' is an organizational tool to specify groups of files
 */
-class CSharpVol1
-{
-    static void Main(String[] args)
-    {
+class CSharpVol1{
+    static void Main(String[] args){
         Console.WriteLine("Greetings");
     }
-	/* //Methods
+    /* //Methods
+	This class has a Main method which is essentially the link from the written code to the
+	compiler in order to execute properly.
+	However, it is counter-intuitive to write out code into all of one method within a class.
+	The way we get passed this is through multiple methods. We can write out a method to carry
+	out a function then write a single line within Main in order to execute a set of code.
+
+	We write out a method like this:
+	(access modifier) (static [if it is, if not then this is blank]) (data type) (name) (parameters){
+		(code)
+	}
 	
-	
-	*/
-	
+	If you do give a method a data type that isn't void
+
+	public static void method(){
+		Console.WriteLine("This is a method");
+	}
+    */
+
     /* //User Input
 	The simplist way of taking input from the user is:
 	Console.ReadLine(); //Individual String
@@ -136,10 +148,6 @@ class CSharpVol1
 	() can be used to specify what arguments are being compared and in what order
     */
 
-	/* //Combining variables in a print statement
-		Say we create a couble variables"
-	*/
-	
     /* //Declaring/Initializing Variables
     (Data type) (variable name) = (value);
 
@@ -179,6 +187,8 @@ class CSharpVol1
         but on a massive scale, allotting more memory to hold a
         variable that doesn't use it all will eventually depreciate
         the efficiency of the program
+
+    There is also a data type of 'void' where there isn't any returned value. Primarly used with methods that don't return a value
     */
 
 
